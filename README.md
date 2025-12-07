@@ -77,7 +77,11 @@ npm run dev
 Pastikan SITL atau drone sudah aktif.
 
 ```bash
-python gcs_backend.py
+sim_vehicle.py -v ArduCopter --map --console
+```
+
+```bash
+python main.py
 ```
 
 Jika berhasil, akan muncul:

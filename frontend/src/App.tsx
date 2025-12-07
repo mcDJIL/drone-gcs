@@ -449,7 +449,7 @@ const App = () => {
         <div className="flex items-center gap-3">
           <div className="bg-blue-600 p-2 rounded-lg"><Send size={24} className="text-white" /></div>
           <div>
-            <h1 className="font-bold text-lg tracking-wider text-white">SKYNET <span className="text-blue-400">GCS</span></h1>
+            <h1 className="font-bold text-lg tracking-wider text-white"><span className="text-blue-400">GCS</span></h1>
             <span className="text-xs text-gray-400">MAVLink Interface</span>
           </div>
         </div>
